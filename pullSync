@@ -1,8 +1,6 @@
 #! /bin/bash 
 
-serverSsh="loukhnati@rigatoni.cip.fim.uni-passau.de"
 # fzf and specif the directories that can be synched.
-pathServer="/home/loukhnati/Dokumente/mountTest"
 # pull from host 
 # Sync
-rsync -a ${serverSsh}:${pathServer}/ .
+rsync -a "${serverSsh}:${pathServer}/" .

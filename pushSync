@@ -1,3 +1,1 @@
-serverSsh="loukhnati@rigatoni.cip.fim.uni-passau.de"
-pathServer="/home/loukhnati/Dokumente/mountTest"
-rsync -a  ./ ${serverSsh}:${pathServer}
+rsync -a  ./ "${serverSsh}:${pathServer}"
